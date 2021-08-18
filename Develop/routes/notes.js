@@ -28,4 +28,25 @@ notes.get('/:note_id', (req, res) => {
 
 
 
+// POST Route for a new UX/UI tip
+notes.post('/', (req, res) => {
+  console.log(req.body);
+
+  const { title , text } = req.body;
+
+  if (req.body) {
+    const newNote = {
+      title,
+      text,
+      note_id : uuidv4(),
+    };
+
+    readAndAppend(newNote, './db/notes.json');
+    res.json(`note added successfully 🚀`);
+  } else {
+    res.error('Error in adding note');
+  }
+});
+
+
 module.exports = notes;
