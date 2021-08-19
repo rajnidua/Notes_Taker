@@ -36,9 +36,9 @@ https://herokuexpresshomework.herokuapp.com/
 
 ## Screenshot
 
-[![User Prompts](./assets/Screenshot_notesTaker1.png)]
+[![homepage](./Assets/Screenshot_notesTaker1.png)]
 
-[![Test Results](./assets/Screenshot_notesTaker2.png)]
+[![notes page](./Assets/Screenshot_notesTaker2.png)]
 
 
 ## Installation
@@ -50,7 +50,7 @@ https://herokuexpresshomework.herokuapp.com/
   ```
 
   ## Usage
-  Run the application by clicking on the heroku url for the live application. Click on the Notes Taker button, on the next page you can write notes with title and description. Delete the note by clicking on the delete icon, view the note by clicking on the note title. 
+  Run the application by clicking on the heroku url for the live application. Click on the Get Started button, on the next page you can write notes with title and description. Delete the note by clicking on the delete icon, view the note by clicking on the note title. 
 
   
   ## Testing
