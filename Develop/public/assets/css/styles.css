@@ -31,9 +31,11 @@ body {
 }
 
 .note-title {
-  height: 50px;
-  margin-top: 13px;
+  height: 100px;
+  margin-top: 10px;
   font-size: 3rem;
+  margin-bottom: 20px;
+
 }
 
 .note-title:read-only,
